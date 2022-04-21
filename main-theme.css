@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: url(/pages/images/back-ground.jpg);
+    background-size: cover;
+}
+.main_box{
+    position: relative;
+float: left;
+}
+.main_box .sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5)
+}
+.sidebar_menu .logo a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+    line-height: 60ox;
+    text-decoration: none;
+
+}
+.sidebar_menu .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+    transition: all 0.3s linear;
+}
+.sidebar_menu .menu i{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 8px;
+
+}
+.sidebar_menu .menu a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.sidebar_menu .menu li:hover{
+    border-left:1px solid #fff ;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+.social_media i:hover{
+    opacity: 1;
+}
+.social_media i {
+    padding: 0 5px;
+
+}
+.container {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.search {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 513px;
+    border-radius: 0 20px 20px 0;
+}
+
+button {
+    float: left;
+    background: orange;
+    color: white;
+    
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px 0 0 20px;
+}
+
+ul {
+    
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.te {
+    font-size: 40px;
+}
+
+header {
+    background: darkblue;
+    color: white;
+    padding-top: 30px;
+    ;
+    min-height: 70px;
+    border-bottom: yellow 5px solid;
+    position: sticky;
+    top: 0;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+header li {
+ float:left;
+    padding: 0 20px 0 20px;
+
+}
+
+header #brand {
+    float: left;
+}
+
+header #brand h1 {
+    margin: 0;
+    color: yellow;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+}
+
+header .curent a {
+    color: yellow;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+#cass {
+    min-height: 400px;
+    background: url("../images/brand.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+.footer {
+    padding-top: calc(var(--section-padding)/2);
+    padding-bottom: calc(var(--section-padding)/2);
+    background: darkslateblue;
+    margin-top: 562px;
+    color: white;
+    text-align: center;
+}
+
+/* footer::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+    
+} */
+.footer .container {
+    position: relative;
+
+}
+
+.footer p:not(.copyright) {
+    padding: 20px;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+    width: fit-content;
+    margin: 20px auto;
+
+
+}
+
+.footer .social-icons .social {
+    padding: 10px 10px;
+
+}
+
+.footer .copyright {
+    margin-top: 20px;
+
+
+}
+
+.footer .copyright span {
+    font-weight: bold;
+    color: var(--main-color);
+
+}
+
+::selection {
+    background: black;
+    color: fixed;
+}

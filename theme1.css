@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    background-image: url(../images/back-ground.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background-repeat: round; */
+    background-size: cover;
+}
+
+.nav-menu {
+    width: 100%;
+    background: darkblue;
+    overflow: auto;
+
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav-menu li {
+    float: left;
+
+}
+
+.nav-menu ul li a {
+    background: #142B47;
+    text-decoration: none;
+    width: 130px;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+
+}
+
+.nav-menu li a:hover {
+    color: orange;
+    /* opacity: ; */
+    margin-left: 100px;
+
+
+}
+
+
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+.box h2 {
+    color: white;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+
+}
+
+.box .input-box {
+    position: relative;
+
+}
+
+.box .input-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid orange;
+    outline: none;
+    background: transparent;
+}
+
+.box .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 1.4s;
+}
+
+.box .input-box input:focus~label,
+.box .input-box input:valid~label {
+    top: -18px;
+    left: 0;
+    color: aqua;
+    font-size: 12px;
+
+}
+
+.box .sub {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: orange;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.bo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 75px;
+}
